@@ -4,30 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Cinemagny</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
-
-    <div class="menu">
-        <div class="menu__header">
-            <div class="menu__logo">
-                <img src="logo.png" alt="Logo">
-            </div>
-            <div class="menu__close">&times;</div>
+    <header class="hero">
+        <div class="hero__header">
+            <img src="assets/svg/element_logo_initial.svg" alt="logo Cinemagny" class="header__img">
+            <button class="header-btn"><img src="assets/svg/element_menu.svg" alt="menu"></button>
         </div>
-
-        <ul class="menu__list">
-            <li class="menu__item"><a href="#programme" class="menu__link">Programme</a></li>
-            <li class="menu__item"><a href="#billetterie" class="menu__link">Billetterie</a></li>
-            <li class="menu__item"><a href="#infos" class="menu__link">Infos pratiques</a></li>
-            <li class="menu__item"><a href="#ecoresponsabilite" class="menu__link">Écoresponsabilité</a></li>
-            <li class="menu__item"><a href="#a-propos" class="menu__link">À Propos</a></li>
-            <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
-        </ul>
-    </div>
-
+        <nav class="menu" aria-expanded="false">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="#programme" class="menu__link">Programme</a></li>
+                <li class="menu__item"><a href="#billetterie" class="menu__link">Billetterie</a></li>
+                <li class="menu__item"><a href="#infos" class="menu__link">Infos pratiques</a></li>
+                <li class="menu__item"><a href="#ecoresponsabilite" class="menu__link">Écoresponsabilité</a></li>
+                <li class="menu__item"><a href="#a-propos" class="menu__link">À Propos</a></li>
+                <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="article">
+            <h2 class="article__title">Bienvenue sur le site officiel du festival CINEMAGNY !</h2>
+            <p class="article__text">
+                Dédié à la célébration du cinéma indépendant et émergent. Notre festival, situé au cœur de Giromagny, vous invite à
+                découvrir des films uniques, des réalisateurs passionnés et à vivre une expérience inoubliable dans le cadre naturel et
+                exceptionnel des Vosges du 12 au 16 novembre 2025. Consultez notre programme, explorez nos valeurs et réservez vos
+                billets dès aujourd'hui pour ne rien manquer !
+            </p>
+            <button class="article__btn">Billetterie</button>
+        </section>
+        <section class="article">
+            <h2 class="article__title">Une Programmation Riche et Originale</h2>
+            <p class="article__text">
+                Le festival CINEMAGNY se distingue par la variété et l’originalité de sa programmation. Vous y découvrirez des longs et
+                courts métrages, des documentaires et des films d’animation, tous choisis pour leur singularité. L’accent est mis sur le
+                cinéma indépendant et émergent, mettant en lumière des réalisateurs prometteurs. Le festival propose également des
+                projections exclusives ainsi que des rétrospectives dédiées à des figures emblématiques du cinéma, offrant ainsi un
+                regard frais et inspirant sur le 7ᵉ art.
+            </p>
+        </section>
+        <section class="article article--sans-btn">
+            <h2 class="article__title">Un Lieu de Rencontres et d’Échanges</h2>
+            <p class="article__text">
+                CINEMAGNY est bien plus qu’un simple festival de cinéma. C’est un lieu d’échanges entre le public et les professionnels
+                du cinéma. Les festivaliers auront l’opportunité de participer à des ateliers et des conférences animés par des experts,
+                découvrant ainsi les coulisses de la création cinématographique. Des séances de questions-réponses avec les réalisateurs
+                permettront également d’enrichir l’expérience en offrant des moments privilégiés de dialogue et de partage. Le festival
+                valorise également les talents locaux, renforçant les liens avec la culture régionale.
+            </p>
+        </section>
+        <section class="article article--sans-btn">
+            <h2 class="article__title">Un Festival Engagé pour l’Environnement et l’Éducation</h2>
+            <p class="article__text">
+                CINEMAGNY est bien plus qu’un simple festival de cinéma. C’est un lieu d’échanges entre le public et les
+                professionnels
+                du cinéma. Les festivaliers auront l’opportunité de participer à des ateliers et des conférences animés par des
+                experts,
+                découvrant ainsi les coulisses de la création cinématographique. Des séances de questions-réponses avec les
+                réalisateurs
+                permettront également d’enrichir l’expérience en offrant des moments privilégiés de dialogue et de partage. Le
+                festival
+                valorise également les talents locaux, renforçant les liens avec la culture régionale.
+    </main>
+    <footer class="footer">
+    </footer>
 </body>
 
 </html>
