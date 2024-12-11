@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Chevallot
+- PRÉNOM : Loréna
+- GROUPE : A2
+- URL du site : https://sparkly-squirrel-901e30.netlify.app
+- URL FIGMA : https://www.figma.com/design/t1KvpLu1bPF11Z62mAAyNi/CHEVALLOT_Lorena_MMI1_A2_SAE_103_18-oct-2024?node-id=1-3&t=HGEGvpr5BoClNtuG-1
 
 ## Sujet
 
