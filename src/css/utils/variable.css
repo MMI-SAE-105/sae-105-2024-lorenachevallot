@@ -1,0 +1,21 @@
+/* Collection 1 */
+:root {
+    /* Mode 1 */
+    /* color */
+    --couleur-blanc: #ffffff;
+    --couleur-bleu: #8bb9a5;
+    --couleur-gris: #e4e5df;
+    --couleur-noir: #1e1e1e;
+    --couleur-vert: #687c4f;
+    --couleur-vert-pomme: #95bb66;
+    /* string */
+    --typo-title: Inter;
+    --typo-typo1: Arvo;
+    --typo-typo2: montserrat;
+    /* Space */
+    --space-1x: 40px;
+    --space-2x: 80px;
+    --space-3x: 120px;
+    --space-4x: 160px;
+    --space-5x: 200px;
+}
