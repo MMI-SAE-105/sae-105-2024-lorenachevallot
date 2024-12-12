@@ -1,8 +1,12 @@
+/*Typo*/
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Vendors */
 @import "vendors/normalize.css";
 
 /* Utils */
-@import "utils/variables.css";
+@import "utils/variable.css";
 
 /* Base */
 @import "base/main.css";
@@ -17,3 +21,4 @@
 @import "components/button.css";
 @import "components/input.css";
 @import "components/carrousel.css";
+@import "components/menu.css";
