@@ -21,3 +21,7 @@ li {
     gap: 150px;
     overflow-x: hidden;
 }
+
+iframe {
+    border: none;
+}
