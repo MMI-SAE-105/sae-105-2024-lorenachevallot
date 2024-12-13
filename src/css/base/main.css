@@ -18,7 +18,6 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--space-1x);
     overflow-x: hidden;
     padding-top: var(--space-1x);
     padding-bottom: var(--space-3x);

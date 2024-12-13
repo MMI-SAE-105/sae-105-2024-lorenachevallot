@@ -85,7 +85,6 @@
     margin-bottom: 30px;
     color: var(--couleur-noir);
     font-style: normal;
-    font-weight: 00;
     line-height: 204%;
 
 }
@@ -187,7 +186,7 @@
     align-items: center;
     padding: 15px;
     gap: 15px;
-    
+
 }
 
 .article--center {
@@ -212,7 +211,8 @@
 
 .--row {
     flex-direction: row;
-    
+    gap: 30px;
+
 }
 
 .article__icon--style-2 {
@@ -221,4 +221,8 @@
     flex-direction: row;
 
     width: 35px;
+}
+
+.article__textarea{
+    
 }
