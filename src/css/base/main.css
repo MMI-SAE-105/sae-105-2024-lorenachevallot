@@ -10,8 +10,6 @@ img {
     height: auto;
 }
 
-
-
 li {
     list-style: none;
 }
@@ -29,3 +27,36 @@ li {
 iframe {
     border: none;
 }
+
+/*.main__deco {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#deco-1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 78%;
+    left: -20%;
+    z-index: 20;
+}
+
+#deco-2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 107%;
+    left: 80%;
+    z-index: 20;
+}
+
+#deco-3 {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 84%;
+    left: 40%;
+    z-index: 20;
+}*/

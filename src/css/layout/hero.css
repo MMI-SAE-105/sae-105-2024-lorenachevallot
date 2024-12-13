@@ -1,3 +1,13 @@
+.hero{
+    width: 100vw;
+    background-color: var(--couleur-noir);
+    padding-top:var(--space-1x);
+    padding-bottom: var(--space-1x);
+    padding-left: var(--space-1x) ;
+    padding-right:var(--space-1x);
+
+}
+
 .content__background {
     display: flex;
     justify-content: center;
@@ -35,18 +45,21 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 75%;
+    text-align: center;
 }
 
 .content__title {
     color: var(--couleur-blanc);
     font-family: var(--typo-title);
-    font-size: 36px;
+    font-size: 25px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 150%;
-    letter-spacing: 14.4px;
+    letter-spacing: 9px;
     text-transform: uppercase;
     width: 100%;
+    margin-top: 80px;
 }
 
 .content__date {
@@ -84,4 +97,9 @@
     z-index: 1;
     position: absolute;
     opacity: 0.6;
+}
+
+.hero--image {
+    padding : 0;
+
 }

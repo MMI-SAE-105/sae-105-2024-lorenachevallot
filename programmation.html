@@ -12,12 +12,10 @@
     <header class="hero">
         <div class="hero__header">
             <img src="assets/svg/element_logo_initial.svg" alt="logo Cinemagny" class="header__img" />
-            <button class="header-btn">
-                <img src="assets/svg/element_loupe.svg" alt="" />
-            </button>
-            <button class="header-btn">
-                <img src="assets/svg/element_menu.svg" alt="menu" />
-            </button>
+            <div class="header__icons">
+                <button class="header-btn"><img src="assets/svg/element_loupe.svg" alt=""></button>
+                <button class="header-btn"><img src="assets/svg/element_menu.svg" alt="menu"></button>
+            </div>
         </div>
         <nav class="menu" aria-expanded="false">
             <ul class="menu__list">
@@ -46,7 +44,7 @@
         </div>
     </header>
     <main class="main">
-        <article class="article">
+        <article class="article article--center">
             <div class="article__texts">
                 <h2 class="article__title">
                     Une Programmation Variée 1 jour, 1 Thème
@@ -62,7 +60,7 @@
             </div>
         </article>
 
-        <article class="article">
+        <article class="article article--center">
             <span class="article__date">12 Novembre</span>
             <div class="article__texts article__texts--background-2">
                 <h2 class="article__title">Longs et Courts Métrages</h2>
@@ -72,33 +70,41 @@
                     percutants, CINEMAGNY met en lumière des réalisateurs qui explorent
                     de nouvelles perspectives cinématographiques.
                 </p>
-                <div class="article__images">
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_an_evening_song.avif" alt="affiche du film An Evening Song"
-                            class="article__image" />
-                        <p class="article__image-text">
-                            An Evening Song<br />14h00-15h40<br />Solitude, Poésie,
-                            Mélancolie
-                        </p>
-                    </div>
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_sira.avif" alt="affiche du film Sira" class="article__image" />
-                        <p class="article__image-text">
-                            Sira<br />16h30-18h30<br />Survie, Résilience, Désert
-                        </p>
-                    </div>
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_maria.avif" alt="affiche du film Maria" class="article__image" />
-                        <p class="article__image-text">
-                            Maria<br />19h00-20h40<br />Identité, Émancipation, Lutte
-                            sociale
-                        </p>
-                    </div>
+            </div>
+            <div class="article__images">
+                <div class="article__image-block">
+                    <img src="assets/avif/film_an_evening_song.avif" alt="affiche du film An Evening Song"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">An Evening Song</li>
+                        <li class="image-text__item">14h00-15h40</li>
+                        <li class="image-text__item">Solitude, Poésie,
+                            Mélancolie</li>
+                    </ul>
+                </div>
+                <div class="article__image-block">
+                    <img src="assets/avif/film_sira.avif" alt="affiche du film Sira"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Sira</li>
+                        <li class="image-text__item">16h30-18h30</li>
+                        <li class="image-text__item">Survie, Résilience, Désert</li>
+                    </ul>
+                </div>
+                <div class="article__image-block">
+                    <img src="assets/avif/film_maria.avif" alt="affiche du film Maria"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Maria</li>
+                        <li class="image-text__item">19h00-20h40</li>
+                        <li class="image-text__item">Identité, Émancipation, Lutte
+                            sociale</li>
+                    </ul>
                 </div>
             </div>
             <button class="article__button">BILLETTERIE</button>
         </article>
-        <article class="article">
+        <article class="article article--center">
             <span class="article__date">13 Novembre</span>
             <div class="article__texts article__texts--background-2">
                 <h2 class="article__title">Documentaires</h2>
@@ -108,33 +114,41 @@
                     Ces films offrent un regard réfléchi sur les réalités contemporaines
                     et sont souvent des tremplins pour le débat et la réflexion.
                 </p>
-                <div class="article__images">
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_unpiano.avif"
-                            alt="affiche du film Un piano, sur les routes de l'Himalaya" class="article__image" />
-                        <p class="article__image-text">
-                            Un piano 9h00-9h50 Musique Aventure Rencontres
-                        </p>
-                    </div>
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_ni_adam_ni_eve.avif" alt="affiche du film Ni d'ève, ni d'adam"
-                            class="article__image" />
-                        <p class="article__image-text">
-                            Ni d’ève ni d’adam 13h00-15h00 Comédie Romance Choc culturel
-                        </p>
-                    </div>
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_chemin_de_toile.avif" alt="affiche du film Chemin des toiles"
-                            class="article__image" />
-                        <p class="article__image-text">
-                            Chemin des toiles 19h00-20h40 Aventure Quête Mystère
-                        </p>
-                    </div>
+
+            </div>
+            <div class="article__images">
+                <div class="article__image-block">
+                    <img src="assets/avif/film_unpiano.avif"
+                        alt="affiche du film Un piano, sur les routes de l'Himalaya"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Un piano</li>
+                        <li class="image-text__item">9h00-9h50</li>
+                        <li class="image-text__item">Musique, Aventure, Rencontres</li>
+                    </ul>
+                </div>
+                <div class="article__image-block">
+                    <img src="assets/avif/film_ni_adam_ni_eve.avif" alt="affiche du film Ni d'ève, ni d'adam"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Ni d’ève ni d’adam</li>
+                        <li class="image-text__item">13h00-15h00</li>
+                        <li class="image-text__item">Comédie, Romance, Choc culturel</li>
+                    </ul>
+                </div>
+                <div class="article__image-block">
+                    <img src="assets/avif/film_chemin_de_toile.avif" alt="affiche du film Chemin des toiles"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Chemin des toiles</li>
+                        <li class="image-text__item">19h00-20h40</li>
+                        <li class="image-text__item">Aventure, Quête, Mystère</li>
+                    </ul>
                 </div>
             </div>
             <button class="article__button">BILLETTERIE</button>
         </article>
-        <article class="article">
+        <article class="article article--center">
             <span class="article__date">14 Novembre</span>
             <div class="article__texts article__texts--background-2">
                 <h2 class="article__title">Films d'Animation</h2>
@@ -144,30 +158,42 @@
                     repoussent les limites de la créativité visuelle, tout en racontant
                     des histoires touchantes et originales.
                 </p>
-                <div class="article__images">
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_belle.avif" alt="affiche du film Belle" class="article__image" />
-                        <p class="article__image-text">
-                            Belle 13h00-15h00 Réalité virtuelle Identité Musique
-                        </p>
-                    </div>
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_arietty.avif" alt="affiche du film Arietty" class="article__image" />
-                        <p class="article__image-text">
-                            Arietty 16h00-17h34 Famille Amitié Nature
-                        </p>
-                    </div>
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_sirocco.avif" alt="affiche du film Sirocco" class="article__image" />
-                        <p class="article__image-text">
-                            Sirocco 18h00-19h20 Aventure Amitié Enfants
-                        </p>
-                    </div>
+
+            </div>
+            <div class="article__images">
+                <div class="article__image-block">
+                    <img src="assets/avif/film_belle.avif" alt="affiche du film Belle"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Belle</li>
+                        <li class="image-text__item">13h00-15h00</li>
+                        <li class="image-text__item">Réalité virtuelle, Identité, Musique</li>
+                    </ul>
+                </div>
+                <div class="article__image-block">
+                    <img src="assets/avif/film_arietty.avif" alt="affiche du film Arietty"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Arietty</li>
+                        <li class="image-text__item">16h00-17h34</li>
+                        <li class="image-text__item">Famille, Amitié, Nature</li>
+                    </ul>
+
+                </div>
+                <div class="article__image-block">
+                    <img src="assets/avif/film_sirocco.avif" alt="affiche du film Sirocco"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Sirocco</li>
+                        <li class="image-text__item">18h00-19h20</li>
+                        <li class="image-text__item">Aventure, Amitié, Enfants</li>
+                    </ul>
+
                 </div>
             </div>
             <button class="article__button">BILLETTERIE</button>
         </article>
-        <article class="article">
+        <article class="article article--center">
             <span class="article__date">15 Novembre</span>
             <div class="article__texts article__texts--background-2">
                 <h2 class="article__title">Avant-Premières et Rétrospectives</h2>
@@ -178,33 +204,43 @@
                     parler d’eux, et de revisiter des œuvres majeures du cinéma
                     indépendant. Au programme cette année.
                 </p>
-                <div class="article__images">
-                    <div class="article__image-block">
-                        <img src="assets/avif/fim_edward_aux_mains_dargent.avif"
-                            alt="affiche du film Edward aux mains d'argent" class="article__image" />
-                        <p class="article__image-text">
-                            Edward aux mains d’argent (1991) 19h00-20h40 Innocence Isolement
-                            Décalé
-                        </p>
-                    </div>
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_corps_bride.avif" alt="affiche du film film Corps Bride"
-                            class="article__image" />
-                        <p class="article__image-text">
-                            Corps Bride (2005) 19h00-20h40 Amour Mort Destin
-                        </p>
-                    </div>
-                    <div class="article__image-block">
-                        <img src="assets/avif/film_dumbo.avif" alt="affiche du film Dumbo" class="article__image" />
-                        <p class="article__image-text">
-                            Dumbo (2019) 19h00-20h40 Différence Famille Imaginaire
-                        </p>
-                    </div>
+            </div>
+
+            <div class="article__images">
+                <div class="article__image-block">
+                    <img src="assets/avif/fim_edward_aux_mains_dargent.avif"
+                        alt="affiche du film Edward aux mains d'argent"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Edward aux mains d'argent</li>
+                        <li class="image-text__item">19h00-20h40</li>
+                        <li class="image-text__item">Innocence, Isolement, Décalé</li>
+                    </ul>
+
+                </div>
+                <div class="article__image-block">
+                    <img src="assets/avif/film_corps_bride.avif" alt="affiche du film film Corps Bride"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Corps Bride</li>
+                        <li class="image-text__item">19h00-20h40</li>
+                        <li class="image-text__item">Amour, Mort, Destin</li>
+                    </ul>
+                </div>
+                <div class="article__image-block">
+                    <img src="assets/avif/film_dumbo.avif" alt="affiche du film Dumbo"
+                        class="article__image article__image--style-2" />
+                    <ul class="image-text__list">
+                        <li class="image-text__item">Dumbo</li>
+                        <li class="image-text__item">19h00-20h40</li>
+                        <li class="image-text__item">Différence, Famille, Imaginaire</li>
+                    </ul>
+
                 </div>
             </div>
             <button class="article__button">BILLETTERIE</button>
         </article>
-        <article class="article">
+        <article class="article article--center">
             <span class="article__date">16 Novembre</span>
             <div class="article__texts article__texts--background-2">
                 <h2 class="article__title">Ateliers et Conférences</h2>
@@ -215,13 +251,14 @@
                     profitez de moments d’échange privilégiés avec les professionnels de
                     l’industrie.
                 </p>
-                <div class="article__images">
-                    <img src="assets/avif/film_intervention.avif"
-                        alt="Séance de présentation, conférence avec le public" class="images__img--style-3" />
-                    <img src="assets/avif/image_exercice.avif"
-                        alt="Séance d'explication à un jeune public sur les techniques de réalisation"
-                        class="images__img--style-3" />
-                </div>
+
+            </div>
+            <div class="article__images">
+                <img src="assets/avif/film_intervention.avif" alt="Séance de présentation, conférence avec le public"
+                    class="images__img--style-3" />
+                <img src="assets/avif/image_exercice.avif"
+                    alt="Séance d'explication à un jeune public sur les techniques de réalisation"
+                    class="images__img--style-3" />
             </div>
             <button class="article__button">BILLETTERIE</button>
         </article>
