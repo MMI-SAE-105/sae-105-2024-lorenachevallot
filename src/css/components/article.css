@@ -3,6 +3,9 @@
     display: flex;
     padding: var(--space-1x);
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-1x);
 }
 
 .article__images {
@@ -13,8 +16,19 @@
 }
 
 .images__img {
-    width: 150px;
-    height: 80px;
+    width: 129px;
+    height: 172px;
+}
+
+.article__images:has(.images__img--style-2) {
+    position: relative;
+    left: 40px;
+    top: -90px;
+
+    padding: 14px 20px;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
 }
 
 .article--cadre {
@@ -45,6 +59,8 @@
 }
 
 .article__texts {
+    font-family: var(--typo-Typo2);
+    color: #000;
     width: 100%;
     height: 100%;
     position: relative;
@@ -53,7 +69,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .article__texts--background {
@@ -64,20 +79,61 @@
 }
 
 .article__title {
-    font-family: var(--typo-title);
-    font-size: 2rem;
+    font-family: var(--typo-typo1);
+    font-size: 20px;
     color: var(--couleur-noir);
     margin-bottom: 30px;
     color: #000;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 204%;
 
 }
 
 .article__text {
-    font-family: var(--typo-body);
-    font-size: 1.2rem;
+    font-family: var(--typo-typo2);
+    font-size: 12px;
     color: var(--couleur-noir);
     margin-bottom: var(--space-1x);
 }
+
+.article__arrow {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow__bar {
+    width: 20px;
+    height: 3px;
+    background-color: var(--couleur-blanc);
+    position: relative;
+}
+
+.article__arrow::before,
+.article__arrow::after {
+    content: "";
+    position: relative;
+    background-color: var(--couleur-blanc);
+    width: 10px;
+    height: 2px;
+}
+
+.article__arrow::before {
+    top: 4px;
+    /* Ajusté pour aligner correctement */
+    left: 20px;
+    /* Centré par rapport à la flèche principale */
+    transform: rotate(-45deg);
+}
+
+.article__arrow::after {
+    top: -4px;
+    /* Ajusté pour aligner correctement */
+    left: -10px;
+    /* Centré par rapport à la flèche principale */
+    transform: rotate(45deg);
+}
+

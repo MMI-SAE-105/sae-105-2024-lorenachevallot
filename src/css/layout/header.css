@@ -17,11 +17,11 @@
     top: 0;
     right: 0;
     left: 0;
+    min-height: 100px;
     width: 100vw;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-
 
 .header__img {
     height: 65px;
@@ -42,4 +42,9 @@
     height: auto;
     width: 45px;
     filter: invert(1);
+}
+
+.hero__header--without-background {
+    background-color: transparent;
+    box-shadow: none;
 }

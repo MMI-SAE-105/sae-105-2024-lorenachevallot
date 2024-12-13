@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 img {
     width: 100%;
     height: auto;
 }
+
+
 
 li {
     list-style: none;
@@ -17,9 +20,9 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--space-4x);
+    gap: var(--space-1x);
     overflow-x: hidden;
-    padding-top: var(--space-4x);
+    padding-top: var(--space-1x);
     padding-bottom: var(--space-3x);
 }
 
