@@ -1,5 +1,4 @@
 .article__images--carrousel {
-    width: 100vw;
     overflow: scroll;
     overflow-y: hidden;
     scroll-behavior: smooth;
@@ -7,8 +6,8 @@
     display: flex;
     gap: var(--space-1x);
     position: relative;
-    padding-left: var(--space-4x);
-    padding-right: var(--space-4x);
+    justify-content: start;
+    margin-top: var(--space-1x);
 }
 
 .article__images--carrousel>* {
@@ -18,29 +17,31 @@
 }
 
 .carrousel__img {
-    object-fit: cover;
-    gap: var(--space-1x);
-}
-
-.poster__title {
-    text-transform: uppercase;
+    height: 100%;
+    width: 20vw;
 }
 
 .carrousel__buttons {
-    padding: var(--space-1x);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--space-1x);
+    width: 100%;
+    gap: 15px;
+}
+
+.carrousel__button {
+    padding: 30px 60px;
+
     display: flex;
     flex-direction: row;
     gap: var(--space-1x);
     width: 30px;
-    height: 30px;
+    height: 10px;
     background-color: var(--couleur-vert-pomme);
     border: none;
     align-items: center;
     justify-content: center;
-}
-
-.carrousel__buttons button {
-    position: relative;
-    left: 0;
-    top: 0;
+    color: var(--couleur-blanc);
+    font-weight: 600;
 }
