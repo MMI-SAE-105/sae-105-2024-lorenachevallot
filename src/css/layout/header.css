@@ -2,17 +2,22 @@
     z-index: 1;
 }
 
+.header__icons {
+    display: flex;
+    gap: 15px;
+}
+
 .hero__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px var(--space-1x);
-    background-color: #000;
-    color: #fff;
+    background-color: var(--couleur-noir);
     position: fixed;
     top: 0;
+    right: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

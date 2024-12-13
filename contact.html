@@ -12,8 +12,10 @@
     <header class="hero">
         <div class="hero__header">
             <img src="assets/svg/element_logo_initial.svg" alt="logo Cinemagny" class="header__img">
-            <button class="header-btn"><img src="assets/svg/element_loupe.svg" alt=""></button>
-            <button class="header-btn"><img src="assets/svg/element_menu.svg" alt="menu"></button>
+            <div class="header__icons">
+                <button class="header-btn"><img src="assets/svg/element_loupe.svg" alt=""></button>
+                <button class="header-btn"><img src="assets/svg/element_menu.svg" alt="menu"></button>
+            </div>
         </div>
         <nav class="menu" aria-expanded="false">
             <ul class="menu__list">
@@ -26,9 +28,30 @@
             </ul>
         </nav>
         <div class="header__content">
-            <h2 class="content__title">Contact</h2>
+            <h2 class="content__title">Infos Pratiques</h2>
         </div>
     </header>
+    <main class="main">
+        <header class="hero">
+            <div class="hero__header">
+                <img src="assets/svg/element_logo_initial.svg" alt="logo Cinemagny" class="header__img">
+                <button class="header-btn"><img src="assets/svg/element_loupe.svg" alt=""></button>
+                <button class="header-btn"><img src="assets/svg/element_menu.svg" alt="menu"></button>
+            </div>
+            <nav class="menu" aria-expanded="false">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#programme" class="menu__link">Programme</a></li>
+                    <li class="menu__item"><a href="#billetterie" class="menu__link">Billetterie</a></li>
+                    <li class="menu__item"><a href="#infos" class="menu__link">Infos pratiques</a></li>
+                    <li class="menu__item"><a href="#ecoresponsabilite" class="menu__link">Écoresponsabilité</a></li>
+                    <li class="menu__item"><a href="#a-propos" class="menu__link">À Propos</a></li>
+                    <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__content">
+                <h2 class="content__title">Contact</h2>
+            </div>
+        </header>
         <article class="article">
             <div class="article__texts">
                 <h2 class="article__title">Besoin d'Informations ?</h2>
@@ -60,44 +83,46 @@
             </div>
         </article>
         <div class="article"></div>
-            <div class="article__texts">
-                <h2 class="article__title">Formulaire de Contact</h2>
-                <p class="article__text">Vous pouvez également nous contacter directement via notre formulaire en ligne.
-                    Remplissez-le avec
-                    vos
-                    informations, et
-                    nous vous répondrons dans les plus brefs délais.</p>
+        <div class="article__texts">
+            <h2 class="article__title">Formulaire de Contact</h2>
+            <p class="article__text">Vous pouvez également nous contacter directement via notre formulaire en ligne.
+                Remplissez-le avec
+                vos
+                informations, et
+                nous vous répondrons dans les plus brefs délais.</p>
+        </div>
+        <form class="article__form">
+            <div class="article__group">
+                <label for="name" class="article__label">Nom</label>
+                <input type="text" id="name" class="article__input" placeholder="Nom">
             </div>
-            <form class="article__form">
-                <div class="article__group">
-                    <label for="name" class="article__label">Nom</label>
-                    <input type="text" id="name" class="article__input" placeholder="Nom">
-                </div>
-                <div class="article__group">
-                    <label for="surname" class="article__label">Prénom</label>
-                    <input type="text" id="surname" class="article__input" placeholder="Prénom">
-                </div>
-                <div class="article__group">
-                    <label for="email" class="article__label">Email</label>
-                    <input type="email" id="email" class="article__input" placeholder="Email">
-                </div>
-                <div class="article__group">
-                    <label for="phone" class="article__label">Numéro de téléphone</label>
-                    <input type="tel" id="phone" class="article__input" placeholder="Numéro de téléphone">
-                </div>
-                <div class="article__group">
-                    <label for="message" class="article__label">Demande</label>
-                    <textarea id="message" class="article__textarea" placeholder="Votre message"></textarea>
-                </div>
-                <button type="submit" class="article__button--form">Envoyer</button>
-            </form>
+            <div class="article__group">
+                <label for="surname" class="article__label">Prénom</label>
+                <input type="text" id="surname" class="article__input" placeholder="Prénom">
+            </div>
+            <div class="article__group">
+                <label for="email" class="article__label">Email</label>
+                <input type="email" id="email" class="article__input" placeholder="Email">
+            </div>
+            <div class="article__group">
+                <label for="phone" class="article__label">Numéro de téléphone</label>
+                <input type="tel" id="phone" class="article__input" placeholder="Numéro de téléphone">
+            </div>
+            <div class="article__group">
+                <label for="message" class="article__label">Demande</label>
+                <textarea id="message" class="article__textarea" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="article__button--form">Envoyer</button>
+        </form>
+    </main>
+
     <footer class="footer">
         <img class="footer__logo" src="assets/svg/element_logo_initial.svg" alt="logo cinemagny">
         <h3 class="footer__title">Contact</h3>
-        <ul class="menu__list">
-            <li class="menu__item">Email : contact@cinemagny.com</li>
-            <li class="menu__item">Téléphone : +33 3 00 00 00 00</li>
-            <li class="menu__item">Adresse : Théâtre du Pilier, 90200 Giromagny, France</li>
+        <ul class="footer-menu__list">
+            <li class="footer-menu__item">Email : contact@cinemagny.com</li>
+            <li class="footer-menu__item">Téléphone : +33 3 00 00 00 00</li>
+            <li class="footer-menu__item">Adresse : Théâtre du Pilier, 90200 Giromagny, France</li>
         </ul>
         <h3 class="footer__title">Nous suivre</h3>
         <ul class="footer__list">
@@ -105,22 +130,25 @@
             </li>
 
             <li class="footer__item"><img class="footer__icons" src="assets/svg/element_facebook.svg"
-                    alt="logo facebook"></li>
+                    alt="logo facebook">
+            </li>
             <li class="footer__item"><img class="footer__icons" src="assets/svg/element_twitter.svg" alt="logo twitter">
             </li>
             <li class="footer__item"><img class="footer__icons" src="assets/svg/element_ytb.svg" alt="logo youtube">
             </li>
         </ul>
         <h3 class="footer__title">Nous suivre</h3>
-        <p class="footer__text">Recevez les dernières nouvelles du festival CINEMAGNY, des informations exclusives et
+        <p class="footer__text">Recevez les dernières nouvelles du festival CINEMAGNY, des informations exclusives
+            et
             des offres spéciales.</p>
         <button class="footer__btn">S'inscrire à la newletter</button>
         <h3 class="footer__title">Mentions légales</h3>
-        <ul class="menu__list">
-            <li class="menu__item">Politique de confidentialité</li>
-            <li class="menu__item">Conditions générales d'utilisation</li>
-            <li class="menu__item">Cookies</li>
+        <ul class="footer-menu__list">
+            <li class="footer-menu__item">Politique de confidentialité</li>
+            <li class="footer-menu__item">Conditions générales d'utilisation</li>
+            <li class="footer-menu__item">Cookies</li>
         </ul>
     </footer>
+</body>
 
 </html>

@@ -14,12 +14,13 @@ li {
 }
 
 .main {
-    padding: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 150px;
+    gap: var(--space-4x);
     overflow-x: hidden;
+    padding-top: var(--space-4x);
+    padding-bottom: var(--space-3x);
 }
 
 iframe {
