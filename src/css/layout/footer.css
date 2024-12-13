@@ -28,11 +28,15 @@
     padding: 0;
     margin: 0;
     margin-bottom: 20px;
+    font-family: var(--typo-typo2);
+    font-size: 15px;
+
 }
 
 .footer-menu__item {
     font-size: 20px;
     margin-bottom: 5px;
+    font-size: 15px;
 }
 
 .footer__list {
@@ -54,9 +58,10 @@
 }
 
 .footer__text {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.8;
     margin-bottom: 5px;
+    font-family: var(--typo-typo2);
 }
 
 .footer__btn {

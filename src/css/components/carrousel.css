@@ -1,0 +1,46 @@
+.article__images--carrousel {
+    width: 100vw;
+    overflow: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    gap: var(--space-1x);
+    position: relative;
+    padding-left: var(--space-4x);
+    padding-right: var(--space-4x);
+}
+
+.article__images--carrousel>* {
+    flex: 0 0 100%;
+    margin: 0;
+    scroll-snap-align: center;
+}
+
+.carrousel__img {
+    object-fit: cover;
+    gap: var(--space-1x);
+}
+
+.poster__title {
+    text-transform: uppercase;
+}
+
+.carrousel__buttons {
+    padding: var(--space-1x);
+    display: flex;
+    flex-direction: row;
+    gap: var(--space-1x);
+    width: 30px;
+    height: 30px;
+    background-color: var(--couleur-vert-pomme);
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrousel__buttons button {
+    position: relative;
+    left: 0;
+    top: 0;
+}
