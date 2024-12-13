@@ -16,6 +16,24 @@
     transition: background-color 0.3s ease;
 }
 
+.article__button--style-3{
+    background-color: var(--couleur-noir);
+    color: var(--couleur-blanc);
+    font-size: 15px;
+    font-family: var(--typo-title);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-1x);
+    gap: 15px;
+    padding: 10px 20px;
+    text-transform: none;
+    transition: background-color 0.3s ease;
+    margin-top: var(--space-1x);
+}
+
 .article__button img {
     width: 16px;
     height: 16px;
@@ -23,7 +41,9 @@
 
 .article__button:hover {
     background-color: var(--couleur-gris);
+    color: var(--couleur-noir);
 }
+
 
 .article__button--style-2 {
     color: var(--couleur-blanc);
@@ -40,7 +60,8 @@
     align-items: center;
     text-align: center;
 
-    position: relative;
+    position: center;
+    margin-top: var(--space-3x);
     left: 40px;
     top: -60px;
 

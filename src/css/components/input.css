@@ -1,4 +1,10 @@
-
-.article__input{
+.article__input {
     background-color: var(--couleur-gris);
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid var(--couleur-gris);
+    border-radius: 0.25rem;
+    background-color: var(--couleur-gris);
+    font-family: var(--typo-typo2);
+    font-size: 15px;
 }

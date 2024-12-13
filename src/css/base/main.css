@@ -20,7 +20,6 @@ li {
     align-items: center;
     overflow-x: hidden;
     padding-top: var(--space-1x);
-    padding-bottom: var(--space-3x);
 }
 
 iframe {
