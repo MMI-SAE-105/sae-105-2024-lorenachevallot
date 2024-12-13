@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinemagny</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="src/js/script.js" defer></script>
 </head>
 
 <body>
@@ -16,12 +17,12 @@
         </div>
         <nav class="menu" aria-expanded="false">
             <ul class="menu__list">
-                <li class="menu__item"><a href="#programme" class="menu__link">Programme</a></li>
-                <li class="menu__item"><a href="#billetterie" class="menu__link">Billetterie</a></li>
-                <li class="menu__item"><a href="#infos" class="menu__link">Infos pratiques</a></li>
-                <li class="menu__item"><a href="#ecoresponsabilite" class="menu__link">Écoresponsabilité</a></li>
-                <li class="menu__item"><a href="#a-propos" class="menu__link">À Propos</a></li>
-                <li class="menu__item"><a href="#contact" class="menu__link">Contact</a></li>
+                <li class="menu__item"><a href="programmation.html" class="menu__link">Programme</a></li>
+                <li class="menu__item"><a href="billeterie.html" class="menu__link">Billetterie</a></li>
+                <li class="menu__item"><a href="index.html" class="menu__link">Infos pratiques</a></li>
+                <li class="menu__item"><a href="ecologie.html" class="menu__link">Écoresponsabilité</a></li>
+                <li class="menu__item"><a href="a_propos.html" class="menu__link">À Propos</a></li>
+                <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
             </ul>
         </nav>
         <div class="hero__content hero__content--with-image">
@@ -75,6 +76,9 @@
             <div class="article__button article__button--style-2">
                 <img src="assets/svg/element_fleche_droite.svg" alt="flèche" />Voir la programmation
             </div>
+        </article>
+
+        <article class="article article--carrousel">
             <div class="article__images article__images--carrousel">
                 <img src="assets/avif/film_arietty.avif" alt="Affiche de film 1" class="carrousel__img" /><img
                     src="assets/avif/film_loin_de_vous.avif" alt="Affiche de film 2" class="carrousel__img" /><img
@@ -82,12 +86,11 @@
             </div>
             <div class="carrousel__buttons">
 
-                <button class="carrousel__button">
+                <button class="carrousel__button carrousel__btn--prev">
                     ←</button>
-                <button class="carrousel__button">→</button>
+                <button class="carrousel__button carrousel__btn--next">→</button>
             </div>
         </article>
-
         <article class="article article--cadre">
             <div class="article__texts article__texts--background">
                 <h2 class="article__title">Un Lieu de Rencontres et d’Échanges</h2>

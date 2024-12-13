@@ -26,7 +26,7 @@
 .article__images:has(.images__img--style-2) {
     position: relative;
     left: 40px;
-    top: -90px;
+    top: -50px;
 
     padding: 14px 20px;
     z-index: 5;
@@ -362,4 +362,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.item__image {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 10;
+}
+
+#geo-1 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: -20px;
+    z-index: 10;
+
 }
