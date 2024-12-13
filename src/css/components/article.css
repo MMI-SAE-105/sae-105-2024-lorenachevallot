@@ -201,6 +201,11 @@
     width: 100vw;
     background-color: var(--couleur-vert-pomme);
 
+    position: relative;
+    left: 0;
+    top: 0;
+    padding-left: var(--space-2x);
+    padding-right: var(--space-1x);
 }
 
 .article__images:has(.article__image-block) {
@@ -355,7 +360,6 @@
     width: 100vw;
     background-color: var(--couleur-bleu);
     position: relative;
-    left: -40px;
     top: 10px;
     padding-top: var(--space-1x);
     display: flex;
