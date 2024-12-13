@@ -187,6 +187,7 @@
     align-items: center;
     padding: 15px;
     gap: 15px;
+    
 }
 
 .article--center {
@@ -205,11 +206,19 @@
 
 .images__img--style-3 {
     width: auto;
+    max-height: 15vh;
+}
+
+
+.--row {
+    flex-direction: row;
+    
 }
 
 .article__icon--style-2 {
     display: flex;
-    width: 35px;
+    justify-content: center;
     flex-direction: row;
 
+    width: 35px;
 }
